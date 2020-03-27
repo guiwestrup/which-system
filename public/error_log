@@ -1,0 +1,24 @@
+[25-Mar-2020 18:44:29 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/data/which-system/storage/logs/lumen-2020-03-25.log" could not be opened: failed to open stream: Permission denied in /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:110
+Stack trace:
+#0 /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(120): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(42): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/which-system/vendor/monolog/monolog/src/Monolog/Logger.php(323): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/which-system/vendor/monolog/monolog/src/Monolog/Logger.php(541): Monolog\Logger->addRecord(400, 'UnexpectedValue...', Array)
+#4 /data/which-system/vendor/illuminate/log/Logger.php(174): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /data/which-system/vendor/illuminate/log/Logger.php(87): Illuminate\Log\ in /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 110
+[25-Mar-2020 18:46:29 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/data/which-system/storage/logs/lumen-2020-03-25.log" could not be opened: failed to open stream: Permission denied in /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:110
+Stack trace:
+#0 /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(120): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(42): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/which-system/vendor/monolog/monolog/src/Monolog/Logger.php(323): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/which-system/vendor/monolog/monolog/src/Monolog/Logger.php(541): Monolog\Logger->addRecord(400, 'UnexpectedValue...', Array)
+#4 /data/which-system/vendor/illuminate/log/Logger.php(174): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /data/which-system/vendor/illuminate/log/Logger.php(87): Illuminate\Log\ in /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 110
+[25-Mar-2020 18:50:13 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/data/which-system/storage/logs/lumen-2020-03-25.log" could not be opened: failed to open stream: Permission denied in /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:110
+Stack trace:
+#0 /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(120): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(42): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /data/which-system/vendor/monolog/monolog/src/Monolog/Logger.php(323): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /data/which-system/vendor/monolog/monolog/src/Monolog/Logger.php(541): Monolog\Logger->addRecord(400, 'UnexpectedValue...', Array)
+#4 /data/which-system/vendor/illuminate/log/Logger.php(174): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /data/which-system/vendor/illuminate/log/Logger.php(87): Illuminate\Log\ in /data/which-system/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 110

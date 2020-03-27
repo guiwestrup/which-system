@@ -1,0 +1,5 @@
+[25-Mar-2020 14:23:41 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/data/which/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /data/which/bootstrap/app.php on line 3
+[25-Mar-2020 14:24:21 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/data/which/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /data/which/bootstrap/app.php on line 3
+[25-Mar-2020 14:24:36 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/data/which/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /data/which/bootstrap/app.php on line 3
+[25-Mar-2020 14:25:07 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/data/which/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /data/which/bootstrap/app.php on line 3
+[25-Mar-2020 14:25:10 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/data/which/bootstrap/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /data/which/bootstrap/app.php on line 3
